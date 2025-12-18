@@ -1,0 +1,120 @@
+[
+    {
+    "qid": "test_0201",
+    "question": "Câu hỏi nào sau đây là đúng liên quan đến việc thanh toán lợi nhuận trên vốn chủ sở hữu?",
+    "choices": [
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập tài sản đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập kinh doanh đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu không được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập kinh doanh đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu không được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập tài sản đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ hoàn toàn bởi cả doanh nghiệp và cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ một phần bởi doanh nghiệp và là một dạng thu nhập từ vốn đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập lương đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu không được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập lương đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập cổ tức đối với cá nhân.",
+      "Việc thanh toán lợi nhuận trên vốn chủ sở hữu không được trừ khỏi thuế bởi doanh nghiệp và là một dạng thu nhập cổ tức đối với cá nhân."
+    ]
+  },
+  {
+    "qid": "test_0202",
+    "question": "Đoạn thông tin:\n[1] Tiêu đề: Jacques Lacan\nNội dung: Jacques Marie Émile Lacan (; 13 tháng 4 năm 1901 – 9 tháng 9 năm 1981) là một nhà phân tâm học và tâm lý trị liệu người Pháp, người đã có những đóng góp nổi bật cho phân tâm học và triết học đương đại, và được gọi là \"nhà phân tâm học gây tranh cãi nhất kể từ Freud\". Lý thuyết hậu cấu trúc của Lacan từ chối niềm tin rằng hiện thực có thể nắm bắt trong ngôn ngữ. Đưa ra những bài giảng hàng năm ở Paris từ 1953 tới 1981, Lacan đã ảnh hưởng tới giới trí thức Pháp những năm 1960 và 1970, đặc biệt là các triết gia hậu cấu trúc luận. Công trình nghiên cứu đa ngành của ông là một thứ tự xưng là theo truyền thống Freud ('Freudian') \" 'Bạn có thể quyết định là những người theo Lacan (Lacanians) nếu bạn thích. Tôi là một người theo Freud' \"; và mô tả vô thức, phức cảm bị thiến, cái tôi, sự đồng nhất, và ngôn ngữ như sự nhận thức chủ quan. Các tư tưởng của ông đã có một ảnh hưởng mạnh mẽ lên lý thuyết phê phán, lý luận văn học, triết học Pháp thế kỉ 20, xã hội học, lý thuyết nữ quyền, lý thuyết điện ảnh và tâm phân học lâm sàng.\n\n[2] Tiêu đề: Jacques Lacan - Tiểu sử.\nNội dung: Lacan Émile Jacques-Marie là con đầu lòng của một gia đình thuộc tầng lớp trung lưu. Ông lớn lên trong môi trường Công giáo bảo thủ. Mẹ ông rất sùng đạo còn cha ông thì thực hiện các nghĩa vụ tôn giáo không chút nhiệt tâm. Được coi như một đứa trẻ độc đoán và sáng dạ, ông theo học tiểu học và trung học tại trường Stanislas. Khoảng mười lăm tuổi, Lacan khám phá Baruch Spinoza, một trong những tác giả yêu thích nhất mãi về sau của ông. Ông rất ấn tượng bởi việc giảng dạy của John Baruzi, tác giả của một luận án về Jean de la Croix, mà cũng quan tâm đến Leibniz, Saint Paul và Angelus Silesius.\n\n[3] Tiêu đề: Jacques Lacan - Công trình.\nNội dung: - Jacques Lacan, De la psychose paranoïaque dans ses rapports avec la personnalité, éd. du Seuil, Paris, 1975 (Luận văn tiến sĩ y học năm 1932) - Jacques Lacan, \"Écrits\", éditions du Seuil, deux volumes, Paris, 1966, réed. 1999 . - Jacques Lacan, \" Le Séminaire\", éditions du Seuil. - Jacques Lacan, \"Autres écrits\", éditions du Seuil, un volume, Paris, 2001\n\n[4] Tiêu đề: Jacques Lacan - Tiểu sử.\nNội dung: Lacan ngưng tất cả mọi hoạt động giảng dạy trong thời Pháp bị chiếm đóng, nhưng vẫn theo đuổi nghiên cứu Phân Tâm học. Chỉ sau khi chiến tranh kết thúc, phong trào phân tâm học ở Pháp mới sống lại. Chiến tranh thế giới dẫu sao cũng mang đến những đổi thay lớn. Những phong trào như của nhà ngôn ngữ học Edouard Pichon về ngôn ngữ vô thức quốc gia phụ thuộc đã bị đẩy lùi bởi những kinh nghiệm mới mẻ hơn. Cuộc lưu vong của Loewenstein, kẻ yêu cuồng Marie Bonaparte, lãnh đạo tinh thần của các nhà phân tâm học cũng gây nên những thay đổi rõ rệt. Ngay khi chiến tranh vừa chấm dứt, Lacan đột nhiên có một tầm quan trọng chưa từng biết đến, có lẽ vì ông là một trong những trí thức không chọn con đường lưu vong.\n\n[5] Tiêu đề: Jacques Lacan - Tiểu sử.\nNội dung: Vài tháng trước khi bảo vệ luận án, ông bắt đầu theo học Phân Tâm học với Rudolph Loewenstein. Ông được bổ nhiệm làm hội viên của hiệp hội Phân Tâm Paris. Năm 1938, ông trở thành thành viên chính thức với sự hỗ trợ của Loewenstein với điều kiện: Lacan phải tiếp tục phân tâm học với ông. Tuy nhiên, Lacan đã sớm bỏ dở. Cũng vào những năm 1930, ông tham dự hội thảo của Alexandre Kojève về Hegel. Hội thảo này không chỉ là nơi gặp gỡ giữa các nhân vật rất khác biệt (Raymond Aron, Raymond Queneau, Jean Hyppolite, Maurice Merleau-Ponty, Georges Bataille, vv..) mà còn là nơi đào tạo trí thức rất quan trọng đối với Lacan.\n\n[6] Tiêu đề: Chủ nghĩa cấu trúc\nNội dung: Phương pháp luận cấu trúc được áp dụng trong nhiều lĩnh vực khác nhau, bao gồm nhân loại học, xã hội học, tâm lý học, phê bình văn học, kinh tế học và kiến trúc. Các nhà tư tưởng nổi bật nhất của chủ nghĩa cấu trúc là Claude Lévi-Strauss, nhà ngôn ngữ học Roman Jakobson và nhà phân tâm học Jacques Lacan. Với tư cách là một trào lưu học thuật, chủ nghĩa cấu trúc ban đầu được coi là kế thừa chủ nghĩa hiện sinh. Tuy nhiên, vào cuối thập niên 1960, nhiều nguyên lý cơ bản của chủ nghĩa cấu trúc phải đối mặt với một làn sóng tấn công từ các trí thức chủ yếu từ Pháp như triết gia và sử gia Michel Foucault, triết gia Jacques Derrida, triết gia Marxist Louis Althusser và nhà phê bình Roland Barthes. Mặc dù trong công việc nghiên cứu của những nhà lý luận này có những phần đoạn liên quan tất yếu đến chủ nghĩa cấu trúc nhưng người ta thường gọi họ là những nhà hậu cấu trúc. Vào thập niên 1970, chủ nghĩa cấu trúc tiếp tục bị chỉ trích vì tính cứng nhắc và phi lịch sử. Cho dù vậy, nhiều người chủ trương chủ thuyết này, chẳng hạn Jacques Lacan, tiếp tục khẳng định tầm ảnh hưởng của chủ nghĩa cấu trúc đối với nền triết học lục địa châu Âu, và nhiều giả định mang tính nền tảng đưa ra bởi các nhà hậu cấu trúc là sự nối tiếp của chủ nghĩa cấu trúc.\nCâu hỏi: Theo ngữ cảnh, Jacques Lacan được xếp vào nhóm nào trong các trào lưu triết học sau đây?",
+    "choices": [
+      "Chủ nghĩa hậu cấu trúc (post-structuralism)",
+      "Phân tâm học Freud (Freudianism)",
+      "Chủ nghĩa cấu trúc (structuralism)",
+      "Chủ nghĩa hiện sinh (existentialism)"
+    ]
+  },
+  {
+    "qid": "test_0203",
+    "question": "Trường hợp nào Tòa án Nhân quyền Châu Âu đã ra phán quyết rằng việc cấm sinh viên nữ mang khăn che đầu Hồi giáo tại trường đại học không vi phạm Điều 9 của Công ước Nhân quyền Châu Âu?",
+    "choices": [
+      "Buscarini v San Marino",
+      "Kalac v Thổ Nhĩ Kỳ",
+      "Hasan và Chaush v Bulgaria",
+      "Leyla Sahin v Thổ Nhĩ Kỳ",
+      "Manoussakis v Hy Lạp",
+      "Shabina Begum v Hiệu trưởng, Hội đồng Trường Trung học Denbigh",
+      "R (trên đơn yêu cầu của Begum) v Hiệu trưởng, Hội đồng Trường Trung học Denbigh",
+      "Luật An ninh, Tội phạm và Chống khủng bố năm 2001",
+      "Luật Ngăn ngừa Khủng bố năm 2005",
+      "Sách bài giảng về Trường hợp Công ước Nhân quyền Châu Âu"
+    ]
+  },
+  {
+    "qid": "test_0204",
+    "question": "Chọn phương án đúng trả lời cho câu hỏi sau: Cách mạng giải phóng dân tộc trong thời đại mới phải do Đảng Cộng sản lãnh đạo, để:",
+    "choices": [
+      "Giác ngô quần chúng.",
+      "Tổ chức, tập hợp quần chúng.",
+      "Đoàn kết với giai cấp vô sản và các dân tộc bị áp bức trên thế giới.",
+      "Tất cả các phương án trên."
+    ]
+  },
+  {
+    "qid": "test_0205",
+    "question": "Công việc nào không phải là nhiệm vụ của nhân viên marketing và bán hàng?",
+    "choices": [
+      "Giới thiệu sản phẩm cho khách hàng.",
+      "Sắp xếp và trưng bày hàng hóa.",
+      "Lập hóa đơn và ghi sổ bán hàng.",
+      "Lập kế hoạch marketing dài hạn cho công ty."
+    ]
+  },
+  {
+    "qid": "test_0206",
+    "question": "Đoạn thông tin:\nAnn Arbor, Michigan\nAnn Arbor là một thành phố quận lỵ quận quận Washtenaw trong tiểu bang Michigan, Hoa Kỳ. Cuộc Tổng điều tra dân số năm 2010 ghi nhận dân số là 113.934 người, trở thành thành phố lớn thứ sáu ở Michigan. Dân số của thành phố được ước tính là 117.070 người vào tháng 7 năm 2015 bởi Cơ quan Điều tra Dân số Hoa Kỳ. Khu Thống kê Thành phố Ann Arbor (MSA) bao gồm tất cả quận Washtenaw, có dân số 344.791 người vào năm 2010. Thành phố này cũng là một phần của Khu Bố cục Thống kê Hợp nhất (CSA) Detroit-Ann Arbor-Flint lớn hơn với tổng dân số đạt 5.318.744 người.\nAnn Arbor được thành lập vào năm 1824, được đặt tên cho vợ của người sáng lập làng và các dãy cây Bur Oak. Đại học Michigan đã chuyển từ Detroit đến Ann Arbor vào năm 1837 và thành phố này đã tăng trưởng nhanh chóng vào đầu thế kỷ 20. Trong những năm 1960 và 1970, thành phố này nổi tiếng là trung tâm của chính trị cánh tả. Ann Arbor trở thành điểm nhấn cho hoạt động chính trị và phong trào chống chiến tranh Việt Nam, cũng như các phong trào học sinh khác nhau.\nAnn Arbor là nhà của Đại học Michigan, một trong những trường đại học nghiên cứu hàng đầu ở Hoa Kỳ. Trường đại học đóng góp đáng kể cho kinh tế Ann Arbor vì trường này sử dụng khoảng 30.000 nhân công, trong đó có khoảng 12.000 nhân viên y tế. Kinh tế của thành phố cũng tập trung vào công nghệ cao, với một số công ty thu hút được khu vực này tính theo cơ sở nghiên cứu và phát triển của trường đại học, và tính theo số sinh viên tốt nghiệp.\n\nI. Lịch sử\n\nVào khoảng năm 1774, Potawatomi thành lập hai ngôi làng trong khu vực hiện nay là Ann Arbor.\nAnn Arbor được thành lập vào năm 1824 bởi các nhà đầu cơ đất John Allen và Elisha Walker Rumsey. Ngày 25 tháng 5 năm 1824, thị trấn plat đã được đăng ký với quận Wayne là \"Annarbour;\" Điều này thể hiện sự sử dụng sớm nhất của tên thị trấn. Allen và Rumsey quyết định đặt tên theo tên vợ của họ, tên là Ann, và cho các căn cứ Bur Oak trong diện tích 640 hecta (260 ha) đất mà họ mua với giá 800 đô la từ chính phủ liên bang ở mức 1,25 đô la Mỹ cho mỗi mẫu Anh [8]. Ojibwa địa phương đã đặt tên khu định cư kaw-goosh-kaw-nick, sau khi nghe thấy tiếng cưa của Allen.Ann Arbor đã trở thành quận lỵ của Quận Washtenaw vào năm 1827, và được thành lập như một ngôi làng vào năm 1833. Công ty Ann Arbor Land, một nhóm các nhà đầu cơ, đã gieo trồng 40 mẫu đất (16 ha) đất chưa phát triển và đưa nó vào tình trạng của Michigan như là địa điểm của thủ phủ bang, nhưng đã thất bại trước Lansing. Năm 1837, tài sản này đã được chấp nhận thay vì là địa điểm của Đại học Michigan, nơi chuyển từ Detroit.\nKể từ khi trường đại học thành lập vào năm 1837, lịch sử của Đại học Michigan và Ann Arbor đã được liên kết chặt chẽ. Thành phố đã trở thành một trung tâm vận chuyển khu vực vào năm 1839 với sự xuất hiện của Đường sắt Trung tâm Michigan, và một tuyến đường sắt bắc-nam nối Ann Arbor đến Toledo Toledo và các thị trường khác ở phía nam được thành lập ở 1878. TTrong những năm 1840 và những năm 1850, những người định cư tiếp tục đến Ann Arbor. Trong khi người định cư trước đây chủ yếu là người gốc Anh, những người định cư mới cũng bao gồm người Đức, người Ailen, và người Mỹ gốc Phi. Năm 1851, Ann Arbor được nâng thành thành phố, Mặc dù thành phố cho thấy một sự sụt giảm dân số trong thời kỳ suy thoái năm 1873. Cho đến những năm 1880 đầu thập niên 1880 Ann Arbor lại chứng kiến sự tăng trưởng mạnh mẽ, Với những người nhập cư mới đến từ Hy Lạp, Ý, Nga và Ba Lan. Ann Arbor đã chứng kiến sự gia tăng tăng trưởng trong sản xuất, đặc biệt là trong nhà máy xay. Cộng đồng Người Mỹ Do Thái Do Thái Ann Arbor cũng phát triển sau khi bước sang thế kỷ 20, và nhà thờ Do Thái đầu tiên và lâu đời nhất, Hội Dòng Beth Israel (Ann Arbor, Michigan) được thành lập năm 1916.\n\nTrong thập kỷ 60 và 70, thành phố này nổi tiếng là trung tâm quan trọng của chính trị tự do. Ann Arbor cũng đã trở thành địa điểm cho hoạt động cánh tả và phong trào chống chiến tranh Việt Nam, cũng như phong trào học sinh. Các cuộc họp chính đầu tiên của nhóm khuôn viên cánh tả quốc gia Sinh viên vì một xã hội dân chủ (tổ chức năm 1960) đã diễn ra tại Ann Arbor vào năm 1960; Năm 1965, thành phố này là quê hương đầu tiên của Hoa Kỳ hội thảo chống lại Chiến tranh Việt Nam. Trong suốt 15 năm tiếp theo, nhiều doanh nghiệp phản văn hóa và Tân Cánh Tả nổi lên và phát triển các cử tri lớn trong thành phố. Những ảnh hưởng này được cuốn vào chính trị thành phố vào đầu những năm giữa và những năm 1970 khi ba thành viên của Đảng Nhân quyền (HRP) giành được ghế của hội đồng thành phố về sức mạnh của cuộc bỏ phiếu của sinh viên. Trong thời gian tham gia vào hội đồng, các đại diện của HRP đã chiến đấu để có các biện pháp bao gồm các đạo luật [dân quyền] chống phân biệt đối xử, các biện pháp giảm thiểu việc chiếm dụng cần sa, và sắc lệnh kiểm soát thuê; Nhiều trong số này vẫn có hiệu lực ở dạng biến đổi. Bên cạnh những nỗ lực tự do và cánh tả, một nhóm nhỏ các tổ chức bảo thủ được sinh ra tại Ann Arbor. Bao gồm Lời của Thiên Chúa (được thành lập vào năm 1967), một phong trào phong trào Chúa ban; và Thomas More Law Center (thành lập năm 1999), một nóm ủng hộ bảo thủ tôn giáo.Sau cuộc bở phiếu năm 1956, thành phố Đông Ann Arbor sáp nhập với Ann Arbor để bao gồm các khu vực phía đông của thành phố.Trong vài thập kỷ qua, Ann Arbor đã phải vật lộn với những ảnh hưởng của giá trị đất tăng lên nhanh chóng, và sự phát triển của thành phố kéo dài đến vùng nông thôn xa xôi. Vào ngày 4 tháng 11 năm 2003, cử tri chấp thuận kế hoạch hành lang xanh mà theo đó chính quyền thành phố mua các quyền phát triển đối với các thửa đất nông nghiệp gần Ann Arbor để bảo vệ chúng khỏi sự phát triển rải rác. Kể từ đó, một cuộc tranh luận sôi nổi tại địa phương đã xoay quanh việc làm thế nào và có phù hợp và hướng dẫn phát triển trong phạm vi thành phố. AAnn Arbor luôn nằm trong danh sách \"địa điểm hàng đầu để sống\" được xuất bản bởi các cơ quan truyền thông chính thống khác nhau hàng năm. Trong năm 2008, nó đã được xếp hạng bởi CNNMoney.com 27 trong 100 \"các thành phố nhỏ tốt nhất Hoa Kỳ\". Và trong năm 2010, Forbes đã chọn Ann Arbor là một trong những thành phố đáng sống nhất trong Hoa Kỳ.\nCâu hỏi: Yếu tố nào sau đây được nêu rõ là góp phần chính vào sự phát triển kinh tế của Ann Arbor trong thế kỷ 20?",
+    "choices": [
+      "Sự mở rộng ngành công nghiệp xay xát vào thế kỷ 19",
+      "Sự phát triển ngành ô tô vào đầu thế kỷ 20",
+      "Nghiên cứu và phát triển của Đại học Michigan cùng lực lượng lao động có trình độ cao",
+      "Tăng trưởng sản xuất nông nghiệp vào giữa thế kỷ 20"
+    ]
+  },
+  {
+    "qid": "test_0207",
+    "question": "Hàm số nào sau đây là biến đổi Laplace của hàm $ f(t) = e^{-3t} \\cos(4t) $?",
+    "choices": [
+      "$ \\frac{s+3}{(s+3)^2 + 16} $",
+      "$ \\frac{s-3}{(s-3)^2 + 16} $",
+      "$ \\frac{s+3}{s^2 + 16} $",
+      "$ \\frac{s-3}{s^2 + 16} $",
+      "$ \\frac{s+3}{(s+3)^2 + 9} $",
+      "$ \\frac{s-3}{(s-3)^2 + 9} $",
+      "$ \\frac{s+3}{s^2 + 9} $",
+      "$ \\frac{s-3}{s^2 + 9} $",
+      "$ \\frac{s+3}{(s+3)^2 + 25} $",
+      "$ \\frac{s-3}{(s-3)^2 + 25} $"
+    ]
+  },
+  {
+    "qid": "test_0208",
+    "question": "Tại sao việc xác định mục tiêu hoạt động là quan trọng đối với doanh nghiệp?",
+    "choices": [
+      "A: Vì mục tiêu không quan trọng, doanh nghiệp có thể hoạt động mà không cần mục tiêu.",
+      "B: Vì mục tiêu giúp doanh nghiệp đánh giá hoạt động của mình.",
+      "C: Vì mục tiêu gây khó khăn trong việc quản lý nhân sự.",
+      "D: Vì mục tiêu chỉ cần có để trang trí."
+    ]
+  },
+  {
+    "qid": "test_0209",
+    "question": "Đoạn thông tin:\n[1] Tiêu đề: Sony\nNội dung: Công ty công nghiệp Sony (ソニー株式会社 (Sonī Chu Thức Hội Xã), Sonī kabushiki gaisha, tiếng Anh: Sony Corporation), gọi tắt là SONY, là một tập đoàn đa quốc gia của Nhật Bản, với trụ sở chính nằm tại Minato, Tokyo, Nhật Bản, và là tập đoàn điện tử đứng thứ 5 thế giới với 81,64 tỉ USD (2011). Sony là một trong những công ty hàng đầu thế giới về điện tử, sản xuất tivi, máy ảnh, máy tính xách tay và đồ dân dụng khác.\nĐược thành lập vào tháng 5/1946 tại Nihonbashi, Chūō, Tokyo, được mang tên là Tokyo Tsushin Kogyo K.K (東京通信工業株式会社, Đông Kinh Thông tin Công nghiệp Chu Thức Hội Xã) với số vốn ban đầu là 190.000 yên. Công ty này đổi tên thành Sony vào tháng 1/1958.\nTừ \"Sony\" là kết hợp của từ \"sonus\" trong tiếng La-tinh (âm thanh) và từ \"sonny\" trong tiếng Anh (cậu bé nhanh nhẹn thông minh) theo cách gọi tên thân mật. Những nhà sáng lập hy vọng tên \"Sony\" thể hiện tinh thần nhiệt huyết và sáng tạo của giới trẻ.\n\nI. Lịch sử\n\nHai nhà sáng lập ra công ty Sony là Ibuka Masaru và Morita Akio.\nTháng 6-1957, một tấm bảng lớn mang tên Sony được dựng gần sân bay Haneda ở Tokyo. Tháng 1-1958, Công ty Totsuko chính thức trở thành Công ty Sony. Tháng 12 năm đó, tên Sony được niêm yết tại Sở Giao dịch chứng khoán Tokyo. Một trong những việc đầu tiên mà Morita và các đồng nghiệp nghĩ đến là lần lượt đăng ký thương hiệu Sony tại 170 nước, vùng lãnh thổ và đăng ký nhiều ngành sản xuất khác nhau ngoài ngành chính là điện tử. Điều đó cho thấy sự nhìn xa trông rộng của các nhà sáng lập và qua đó cũng bộc lộ khát vọng sẽ chinh phục thế giới của họ.\nHai nhà sáng lập Sony đều có \"gốc gác\" là dân kỹ thuật, rất giỏi với những sáng chế. Hơn ai hết, họ ý thức được tầm quan trọng của việc luôn phải tiên phong trong lĩnh vực sáng tạo ra những sản phẩm mới.\nCon đường phát triển của Sony là luôn luôn tìm tòi, nghiên cứu để tạo ra những sản phẩm mới phục vụ đời sống. Nhờ đó mà các sản phẩm đồ điện tử trở nên hết sức phong phú và đa dạng, đáp ứng các nhu cầu của người tiêu dùng.\nKhoảng 6%-10% doanh thu hàng năm của Sony được trích ra dành cho việc nghiên cứu. Các sản phẩm không chỉ nhắm vào các nhu cầu hiện tại mà còn dành cho cả các nhu cầu chưa nảy sinh.\nCần nhắc lại là sản phẩm đầu tiên được sản xuất dưới thương hiệu Totsuko là chiếc máy ghi âm dùng băng từ tính, ra đời năm 1950 và hai năm sau đã quen mặt với thị trường. Năm năm sau, sản phẩm thứ hai của Morita và các đồng nghiệp được đánh giá là một trong những bước đột phá ấn tượng nhất, đó là chiếc radio bán dẫn nhãn hiệu TR-55 chạy bằng transistor đầu tiên của nước Nhật, mở đầu kỷ nguyên bán dẫn phát triển rầm rộ vào thập niên 1960.\nTháng 5-1960, Sony cho ra đời chiếc máy truyền hình (TV) transistor đầu tiên lấy tên là TV8 -301. Thành quả trên được sự công nhận của cả thế giới, vinh dự không chỉ riêng của Sony, mà còn của cả nền công nghiệp điện tử của Nhật Bản. Đầu những năm 1960, Morita và các đồng nghiệp bắt đầu quan tâm đến một sản phẩm khác. Đó là máy sử dụng băng video VTR (Video Tape Recorder) do hãng Ampex của Mỹ chế tạo và cung cấp cho các đài phát thanh.\nVì sử dụng cho mục đích phát thanh nên máy rất cồng kềnh, mỗi máy chiếm diện tích cả một căn phòng, còn giá thành hơn 100.000 USD/chiếc thì chỉ những cơ quan có ngân sách dồi dào mới sắm nổi. Mục tiêu mà Ibuka và Morita nhắm đến là những chiếc máy VTR gọn nhẹ, giá cả phù hợp với túi tiền của đa số người tiêu dùng trong nước.\nTất cả chuyên viên, kỹ sư của Sony tập trung nỗ lực theo hướng này, thiết kế và sản xuất thử nhiều mẫu sản phẩm khác nhau, mẫu sau gọn nhẹ, tiện lợi hơn mẫu trước. Chiều ngang băng video rộng hơn 5 cm của hãng Ampex đã được thu nhỏ tới kích thước không đến 2 cm. Chiếc máy VTR nguyên mẫu được đặt tên là U - Matic, đã được sự đón nhận khá tích cực của người tiêu dùng, chỉ riêng hãng xe hơi Ford đã đặt mua một lần 5.000 chiếc để dùng trong công tác huấn luyện nhân viên.\nThành công này khuyến khích Morita và các chuyên viên tiến xa thêm bước nữa, đó là tiếp tục cải tiến máy VTR, hạ giảm giá thành bằng cách dùng băng video nhỏ hơn nữa, có chiều rộng mặt băng không đến 1,3 cm và sử dụng 100% linh kiện bán dẫn.\nNăm 1964, một toán chuyên viên do Nobutoshi Kihara dẫn đầu đã chế tạo được chiếc CV-2000, máy thu phát băng video cassette (VCR) sử dụng trong gia đình đầu tiên của thế giới. Băng từ tính ghi phát hình không còn là hai cuộn băng nằm riêng rẽ bên ngoài máy ghi phát hình nữa, mà chúng đã được lắp đặt trong một hộp băng duy nhất đặt bên trong máy, gọn gàng và dễ sử dụng. Giá bán một chiếc CV-2000 chỉ còn bằng không tới 1% giá một chiếc máy VTR (máy ghi phát hình dùng băng video có cuộn băng bên ngoài máy: open reel) sử dụng trong các hệ thống phát thanh, truyền hình, và bằng không đến 10% giá một chiếc máy sử dụng trong ngành giáo dục.\nTháng 10-1968, Sony cho ra đời chiếc TV màu nhỏ gọn sử dụng đèn hình trinitron, một công nghệ mới mẻ giúp đèn có hiệu năng cao. Chính sáng kiến về trinitron này đã được Hàn Lâm viện quốc gia Mỹ về nghệ thuật truyền hình và khoa học tặng giải thưởng Emmy cho tập đoàn Sony vào năm 1972.\nNhững năm gần đây, để phát triển sản phẩm hàng điện tử gia dụng, Sony đặc biệt chú trọng đến việc vươn lên vị trí hàng đầu trong lĩnh vực liên quan.\nNăm 1988, Sony tiếp nhận công ty CBS Records Inc để thành lập nên Sony Music Entertainment và năm 1989 tiếp tục mua lại Columbia Pictures thành lập nên Sony Picture Entertainment. Sony PlayStation khai trương vào năm 1995 đưa tập đoàn Sony trở thành tập đoàn chiếm vị trí hàng đầu trong lĩnh vực trò chơi điện tử.\nHiện nay Tập đoàn Sony có 168.000 nhân viên làm việc tại khắp các châu lục trên toàn cầu. Là nhà sản xuất điện tử hàng đầu thế giới, Sony đạt nhiều thành công trong lĩnh vực điện tử dân dụng như tivi màu, sản phẩm audio & video, trò chơi điện tử, lĩnh vực điện tử chuyên dụng như thiết bị phát thanh truyền hình, y tế, giáo dục, nghiên cứu khoa học. Ngày nay, danh mục của Sony có trên 5.000 sản phẩm bao gồm đầu DVD, máy chụp ảnh, máy tính cá nhân, TV, các thiết bị âm thanh nổi, thiết bị bán dẫn và chúng được thiết lập thành những danh mục có thương hiệu như máy nghe nhạc cá nhân Walkman, TV Trinitron, dòng điện thoại di động Xperia, máy vi tính Vaio, TV màn ảnh rộng Wega, máy ghi hình HandyCam, máy chụp ảnh kỹ thuật số Cybershot và bộ trò chơi PlayStation.\nTrong thời đại bùng nổ công nghệ thông tin, Sony là một trong những tên tuổi nổi bật của lĩnh vực chế tạo máy tính, viễn thông và dịch vụ Internet.\nSony còn là nhà sản xuất kinh doanh hàng đầu thế giới về âm nhạc và điện ảnh với hoạt động của công ty như Sony Picture Entertainment, Sony Music Entertainment, Sony BMG\nNăm 2003, Công ty Samsung của Hàn Quốc hợp tác cùng Sony thành lập công ty S-LCD để sản xuất và cung cấp màn hình LCD cho 2 tập đoàn vào năm 2006. S-LCD nắm giữ bởi Samsung (50% + 1 cổ phiếu) và Sony (50% - 1 cổ phiếu), trụ sở và nhà máy nằm tại Tangjung, Hàn Quốc. Ngày 26/12/2011, Samsung thông báo tập đoàn đã mua lại cổ phần của Sony tại S-LCD.\nCâu hỏi: Nhân tố nào được nhấn mạnh là cốt lõi trong thành công của Sony, dựa trên thông tin trong ngữ cảnh?",
+    "choices": [
+      "Đầu tư 6%-10% doanh thu hàng năm vào nghiên cứu và phát triển sản phẩm.",
+      "Mua lại các công ty giải trí như CBS Records và Columbia Pictures.",
+      "Hợp tác với Samsung để thành lập S-LCD vào năm 2003.",
+      "Mở rộng thị trường toàn cầu bằng cách đa dạng hóa sản phẩm điện tử."
+    ]
+  },
+  {
+    "qid": "test_0210",
+    "question": "Chọn đáp án sai. Chủ Tịch Hồ Chí Minh tiếp thu những giá trị tư tưởng nào?",
+    "choices": [
+      "Những mặt tích cực của Nho giáo.",
+      "Tư tưởng vị tha của Phật giáo.",
+      "Tinh hoa văn hóa nhân loại",
+      "Tư tưởng của Khổng Tử về “ một xã hội bình yên không bao giờ thay đổi…”."
+    ]
+  }
+]

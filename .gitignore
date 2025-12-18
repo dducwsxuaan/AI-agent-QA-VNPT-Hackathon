@@ -1,0 +1,11 @@
+.git
+.env
+__pycache__
+vnpt-ai/
+test_data/
+output/
+output_2/
+.vscode/
+.ipynb_checkpoints
+test_data_splitted/
+data/

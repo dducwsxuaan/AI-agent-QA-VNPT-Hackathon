@@ -1,0 +1,16 @@
+qdrant-client
+langchain
+langchain-core
+langchain-community
+langgraph
+underthesea
+langchain-experimental==0.0.56
+rank_bm25
+scikit-learn
+numpy==1.26.4
+langchainhub
+requests
+pydantic
+pydantic-settings
+python-dotenv
+sympy
