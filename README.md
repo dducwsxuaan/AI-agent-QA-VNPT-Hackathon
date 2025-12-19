@@ -124,11 +124,6 @@ Goals:
     - `src/data_processing/formatting.py`
     - `src/data_processing/answer.py`
 
-    Next steps I can help with
-    - Add a concrete `src/config.py` example for local runs.
-    - Create a small preview script to output the first N chunks from any `.txt` to validate chunking quality.
-
-
 # 3.  Resource Initialization
 
 Vector Database has been already built and containerized in Docker at: ```/data/qdrant_storage/```
