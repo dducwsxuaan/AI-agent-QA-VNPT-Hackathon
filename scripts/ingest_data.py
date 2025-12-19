@@ -32,7 +32,9 @@ def main():
     db = QdrantHybridDB(path=str(settings.DB_PATH))
     
     # 2. Tìm file
-    corpus_dir = settings.DATA_DIR / "crawl" 
+    # corpus_dir = settings.DATA_DIR / "crawl"
+    # corpus_dir = settings.DATA_DIR/ "law_data"
+    corpus_dir = settings.DATA_DIR/ "new_crawl/crawl"
     if not corpus_dir.exists():
         corpus_dir = settings.DATA_DIR
 

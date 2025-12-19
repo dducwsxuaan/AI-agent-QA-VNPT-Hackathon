@@ -16,7 +16,8 @@ from src.graph import build_graph, llm_small, llm_large # Import graph đã comp
 INPUT_PATH = "/code/private_test.json"
 OUTPUT_PATH = "/code/submission.csv"
 
-
+# INPUT_PATH = "test.json"
+# OUTPUT_PATH = "submission.csv"
 
 def main():
     parser = argparse.ArgumentParser(description="VNPT RAG Pipeline")
@@ -111,7 +112,7 @@ def main():
     
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['id', 'answer']) # Header submission
+        writer.writerow(['qid', 'answer']) # Header submission
         writer.writerows(results)
     
     print(f"✅ Đã lưu kết quả tại {output_path}")

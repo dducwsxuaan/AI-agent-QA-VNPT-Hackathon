@@ -5,7 +5,9 @@ vnpt-ai/
 test_data/
 output/
 output_2/
+law_data/
 .vscode/
 .ipynb_checkpoints
 test_data_splitted/
 data/
+command_guideline.txt

@@ -12,51 +12,54 @@ import string
 from src.utils.logging import print_log
 
 
-def extract_answer(response: str) -> str:
+def extract_answer(response: str, max_choices: int = 15) -> str:
     """
-    Trích xuất đáp án (A, B, C, D...) từ phản hồi của LLM.
-    Ưu tiên cấu trúc: "Answer: X" hoặc "Đáp án: X".
+    Trích xuất đáp án từ phản hồi LLM.
+    Mặc định max_choices=15 (A-O) để cân bằng giữa độ bao phủ và an toàn.
     """
     if not response:
         return "A"
         
     clean_response = response.strip()
     
-    # 1. ƯU TIÊN CAO NHẤT: Tìm pattern "Answer: A" hoặc "Đáp án: B"
-    # Regex giải thích:
-    # - (?:Answer|Đáp án|Lựa chọn): Tìm từ khóa
-    # - .*?: Chấp nhận bất kỳ ký tự nào ở giữa (ví dụ "Answer is")
-    # - [:punct:\s]*: Chấp nhận dấu hai chấm, dấu sao markdown (**), khoảng trắng
-    # - ([A-Z]): Bắt ký tự in hoa (Group 1)
-    # - (?= ...): Lookahead - Kiểm tra ký tự ngay sau nó (để tránh bắt nhầm chữ cái đầu của từ, ví dụ "Answer: About")
-    #       [\s.)]: Phải là khoảng trắng, dấu chấm, hoặc dấu đóng ngoặc
-    #       |$: Hoặc là kết thúc chuỗi
-    
-    match_candidates = re.findall(
-        r"(?:Answer|Đáp án|Lựa chọn|Ans|Kết quả|Chốt).*?[:\s*#]+([A-Z])(?=[\s.)]|$)", 
+    # Tạo tập nhãn hợp lệ: {'A', 'B', ..., 'O'}
+    valid_labels = set(string.ascii_uppercase[:max_choices])
+
+    # --- TẦNG 1: Ưu tiên cao nhất (Answer: I) ---
+    # Cấu trúc này rất an toàn, kể cả với chữ I
+    explicit_matches = re.findall(
+        r"(?:Answer|Đáp án|Lựa chọn|Ans|Kết quả|Chốt).*?[:：\s]+(?:[*#\"'\s]*)([A-Z])(?=[\s.)]|$)", 
         clean_response, 
-        re.IGNORECASE | re.DOTALL # DOTALL quan trọng để .*? băng qua được xuống dòng
+        re.IGNORECASE | re.DOTALL
     )
     
-    bullet_candidates = re.findall(
+    if explicit_matches:
+        final_match = explicit_matches[-1].upper()
+        if final_match in valid_labels:
+            return final_match
+
+    # --- TẦNG 2: Đầu dòng (I. hoặc I)) ---
+    # Rủi ro: Có thể bắt nhầm "I. Giới thiệu"
+    # Giải pháp: Regex yêu cầu [A-Z] phải là ký tự in hoa, theo sau là chấm/ngoặc
+    # Nếu prompt của bạn tốt (không yêu cầu model in ra dàn ý), tầng này vẫn ổn.
+    bullet_matches = re.findall(
         r"(?:^|\n)[\s*#]*([A-Z])[.)](?=\s|$)", 
         clean_response
     )
-    if bullet_candidates:
-        return bullet_candidates[-1].upper()
-
-    # --- CHIẾN THUẬT 3: Fallback cuối cùng (Tìm chữ cái in hoa đứng lẻ) ---
-    # Chỉ tìm A, B, C, D, E, F để tránh bắt nhầm các chữ cái khác (như T trong 'Thân ái', H trong 'Hết')
-    # Logic: Ký tự in hoa đứng độc lập
     
-    standalone_candidates = re.findall(
-        r"(?<!\w)([A-F])(?!\w)", 
-        clean_response
-    )
-    
-    if standalone_candidates:
-        return standalone_candidates[-1].upper()
+    if bullet_matches:
+        final_bullet = bullet_matches[-1].upper()
+        if final_bullet in valid_labels:
+            return final_bullet
 
+    # --- TẦNG 3: Ký tự đứng một mình ---
+    standalone_match = re.search(r"^[\s*#]*([A-Z])[\s*#.]*$", clean_response)
+    if standalone_match:
+        char = standalone_match.group(1).upper()
+        if char in valid_labels:
+            return char
+
+    # Fallback
     return "A"
 
 
