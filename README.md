@@ -115,14 +115,12 @@ Goals:
     - Sparse hashing: the project uses `zlib.crc32(token) % 20000` for sparse indices—adjust modulus if you need a larger sparse dimension.
 
 4. Relevant files
-    - `scripts/ingest_data.py`
-    - `scripts/json_splitter.py`
-    - `scripts/Crawl_Data/[VNPT_AI]_FireCrawl.ipynb`
-    - `scripts/Crawl_Data/Wiki_Data_crawling.ipynb`
-    - `src/database/splitter.py`
-    - `src/database/hybrid_qdrant.py`
-    - `src/data_processing/formatting.py`
-    - `src/data_processing/answer.py`
+    - `scripts/ingest_data.py` - Main ingestion script that processes .txt files
+    - `scripts/json_splitter.py` - JSON data splitting utilities
+    - `scripts/Crawl_Data/[VNPT_AI]_FireCrawl.ipynb` - Firecrawl web scraping examples
+    - `scripts/Crawl_Data/Wiki_Data_crawling.ipynb` - Wikipedia data collection examples
+    - `src/database/splitter.py` - Semantic chunking implementation (`SemanticSplitter`)
+    - `src/database/hybrid_qdrant.py` - Hybrid encoder and Qdrant database operations
 
     Next steps I can help with
     - Add a concrete `src/config.py` example for local runs.
