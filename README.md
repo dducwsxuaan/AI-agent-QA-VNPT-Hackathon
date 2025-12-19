@@ -6,9 +6,9 @@ id: 2180d7b1-ad1f-4ce6-9ab1-1b30d5558cb4
 ---
 graph TD
     Start((Start)) --> Input[/Input JSON Data/]
-    Input --> MainFlow[Main Pipeline: flow method]
+    
 
-    MainFlow --> Router{Router Decision: VNPT Small}
+    Input --> Router{Router Decision: VNPT Small}
 
     Router -- toxic --> ToxicPrompt[Select Refusal Answer VNPT Large]
     
@@ -52,7 +52,7 @@ graph TD
 
 | Component | Implementation |
 | :--- | :--- |
-| **Orchestration** | **LangChain** (Custom Agentic Workflow) |
+| **Orchestration** | **LangChain, LangGraph**|
 | **Main LLM (Reasoning)** | **VNPT LLM Large** |
 | **Router / Classifier** | **VNPT LLM SMALL** |
 | **Vector Database** | **Qdrant** |
