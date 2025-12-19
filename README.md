@@ -7,7 +7,7 @@ graph LR
     %% Định nghĩa Style Dark Mode
     classDef darkNode fill:#1a1a1a,stroke:#ffffff,stroke-width:1px,color:#ffffff
     classDef highlightNode fill:#333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
-    classDef dbNode fill:#000000,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    classDef dbNode fill:##333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
 
     %% Nodes
     Sources{"Data Sources"}:::highlightNode
