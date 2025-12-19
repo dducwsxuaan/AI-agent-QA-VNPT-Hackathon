@@ -7,7 +7,7 @@ graph LR
     %% Định nghĩa Style Dark Mode
     classDef darkNode fill:#1a1a1a,stroke:#ffffff,stroke-width:1px,color:#ffffff
     classDef highlightNode fill:#333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
-    classDef dbNode fill:#000000,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    classDef dbNode fill:##333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
 
     %% Nodes
     Sources{"Data Sources"}:::highlightNode
@@ -121,11 +121,6 @@ Goals:
     - `scripts/Crawl_Data/Wiki_Data_crawling.ipynb` - Wikipedia data collection examples
     - `src/database/splitter.py` - Semantic chunking implementation (`SemanticSplitter`)
     - `src/database/hybrid_qdrant.py` - Hybrid encoder and Qdrant database operations
-
-    Next steps I can help with
-    - Add a concrete `src/config.py` example for local runs.
-    - Create a small preview script to output the first N chunks from any `.txt` to validate chunking quality.
-
 
 # 3.  Resource Initialization
 
