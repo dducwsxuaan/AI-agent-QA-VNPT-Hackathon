@@ -66,40 +66,44 @@ graph TD
 
 ```mermaid
 graph LR
-    %% Định nghĩa Style Dark Mode
-    classDef darkNode fill:#1a1a1a,stroke:#ffffff,stroke-width:1px,color:#ffffff
-    classDef highlightNode fill:#333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
-    classDef dbNode fill:##333333,stroke:#ffffff,stroke-width:2px,color:#ffffff
+    %% Định nghĩa Style cho từng nhóm Node
+    classDef yellowNode fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#1a1a1a,font-weight:bold
+    classDef blueNode fill:#60a5fa,stroke:#3b82f6,stroke-width:1px,color:#ffffff
+    classDef purpleNode fill:#c084fc,stroke:#a855f7,stroke-width:1px,color:#ffffff
+    classDef dbNode fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#1a1a1a,font-weight:bold
 
     %% Nodes
-    Sources{"Data Sources"}:::highlightNode
+    Sources{"Sources"}:::yellowNode
     
     subgraph Prep [Ingestion & Preparation]
-        Ingest["Ingest Controller"]:::darkNode
-        Clean["Cleaning"]:::darkNode
-        Tokenize["Tokenization"]:::darkNode
+        Ingest["Ingest"]:::blueNode
+        Clean["Clean"]:::blueNode
+        Tokenize["Tokenize"]:::blueNode
     end
     
     subgraph Vector [Vectorization & Storage]
-        Chunk["Semantic Chunking"]:::highlightNode
-        Encode["Hybrid Encoding"]:::darkNode
-        Qdrant[("Qdrant DB")]:::dbNode
+        Chunk["Chunk"]:::purpleNode
+        Encode["Encode"]:::purpleNode
+        Encode2["Encode"]:::purpleNode
     end
 
-    %% Luồng dữ liệu (Mũi tên trắng)
+    Qdrant(("Qdrant DB")):::dbNode
+
+    %% Luồng dữ liệu và kết nối
     Sources ==> Ingest
     Ingest --> Clean
     Clean --> Tokenize
     Tokenize --> Chunk
     Chunk --> Encode
-    Encode ==> Qdrant
+    Encode --> Encode2
+    Encode2 ==> Qdrant
 
-    %% Style cho khung Subgraph (Nền tối dần từ ngoài vào trong)
-    style Prep fill:#2d2d2d,stroke:#555555,stroke-dasharray: 5 5,color:#ffffff
-    style Vector fill:#262626,stroke:#555555,stroke-dasharray: 5 5,color:#ffffff
+    %% Style cho khung Subgraph
+    style Prep fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,stroke-dasharray: 5 5,color:#ffffff
+    style Vector fill:#581c87,stroke:#a855f7,stroke-width:2px,stroke-dasharray: 5 5,color:#ffffff
 
-    %% Chỉnh màu mũi tên sang trắng
-    linkStyle default stroke:#ffffff,stroke-width:1px
+    %% Chỉnh màu mũi tên
+    linkStyle default stroke:#cbd5e1,stroke-width:2px
 ```
 
 ## Data Processing and Crawling
@@ -187,7 +191,7 @@ Goals:
 
 # 3.  Resource Initialization
 
-Vector Database has been already built and containerized in Docker at: ```/data/qdrant_storage/```
+Vector Database has already built and containerized in Docker at: ```/data/qdrant_storage/```
 
 
 # 4. Environment Variables
