@@ -13,7 +13,7 @@ graph TD
     Router -- toxic --> ToxicPrompt[Select Refusal Answer VNPT Large]
     
     
-    Router -- math --> MathNode[Math Solver: Program of Thought]
+    Router -- math --> MathNode[Math Solver: Program of Thought ]
     MathNode --> MathPrompt[Prompt Generate Python Code: VNPT Large]
     MathPrompt --> PythonExec{Execute Python REPL}
     PythonExec -- Error/Missing Result --> FixLoop[Feedback Loop: Fix Error & Conclusion]
